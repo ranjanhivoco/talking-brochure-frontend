@@ -10,5 +10,6 @@ export default defineConfig({
 
   preview: {
     port: 8834,
+    allowedHosts: ["nestle.thefirstimpression.ai"],
   },
 });
