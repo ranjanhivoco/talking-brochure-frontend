@@ -8,7 +8,7 @@ function PainterDetails() {
         <Header isarrow={true} />
       </div>
 
-      <img className="mt-4 w-full object-scale-down" src="/images/shalimar-paints.png" alt="shalimar-paints" />
+      <img className="mt-4 w-full object-scale-down" src="/images/Nestle-paints.png" alt="Nestle-paints" />
       <section className=" text-white px-6 mt-4 mb-5 ">
         <div className="flex items-center border-b-[0.5px] border-[#FFFFFF80] pb-2">
           <img   src="/svgs/location-pin.svg" alt="Location-Pin"  />

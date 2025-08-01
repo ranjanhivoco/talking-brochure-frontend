@@ -30,7 +30,7 @@ const Splash = () => {
 
   const items = [
     {
-      title: "Explore Shalimar Products",
+      title: "Explore Nestle Products",
       icon: "/svgs/search.svg",
       path: "/interaction",
     },

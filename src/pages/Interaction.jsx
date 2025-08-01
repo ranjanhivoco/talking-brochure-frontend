@@ -40,7 +40,7 @@ function Interaction({ platform }) {
   }, []);
 
   const messages = [
-    "Hey, I'm Shalimar AI. Let me know how I can help.",
+    "Hey, I'm Nestle AI. Let me know how I can help.",
     "Hope I was able to assist you. How can I help you further?",
     "Yeah, you are doing good! You can ask me anything.",
     "Go ahead with your questions, I'm all tuned in.",
@@ -352,7 +352,7 @@ function Interaction({ platform }) {
               <div className=" botIsListening flex flex-1 flex-col gap-y-8 md:gap-12">
                 <h1 className="px-6 font-Poppins text-[19px] font-semibold leading-[22.8px] md:text-base text-center text-white">
                   {message ||
-                    " Hey, I'm Shalimar AI Let me know how I can help"}
+                    " Hey, I'm Nestle AI Let me know how I can help"}
                 </h1>
 
                 <div className="flex flex-col gap-8 xl:gap-12 w-full">
