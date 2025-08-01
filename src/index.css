@@ -15,6 +15,9 @@
 @tailwind utilities;
 
 
+ /* @import "tailwindcss"; */
+
+
 
 body {
   color:#1E1E1E

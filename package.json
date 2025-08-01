@@ -12,6 +12,7 @@
   "dependencies": {
     "@cloudpdf/viewer": "^1.0.5",
     "@ramonak/react-progress-bar": "^5.2.0",
+    "@tailwindcss/vite": "^4.1.11",
     "axios": "^1.7.2",
     "dotenv": "^16.4.5",
     "imagemin": "^9.0.0",
