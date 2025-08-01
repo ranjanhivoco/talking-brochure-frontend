@@ -100,26 +100,30 @@ function Interaction({ platform }) {
     // return "";
     // "http://192.168.186.175:8701/api/interactivedemos/process",
     // "https://cruncha.querease.ai/api/interactivedemos/process",
+    // "http://192.168.0.6:8508/chat"
     try {
-      let response = await fetch("http://192.168.0.6:8508/chat", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          // data: text,
-          // language: language.toLocaleLowerCase(),
-          // session_id: uuId,
-          // quiz: quizData,
-          // platform,
-          // isFirstAPICall,
+      let response = await fetch(
+        "https://api.nestle.thefirstimpression.ai/chat",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({
+            // data: text,
+            // language: language.toLocaleLowerCase(),
+            // session_id: uuId,
+            // quiz: quizData,
+            // platform,
+            // isFirstAPICall,
 
-          session_id: uuId,
-          user_text: text,
-          lang: language.toLowerCase(),
-          platform,
-        }),
-      });
+            session_id: uuId,
+            user_text: text,
+            lang: language.toLowerCase(),
+            platform,
+          }),
+        }
+      );
       let data = await response.json();
       playAudio(data?.audio);
       setCurrentSubtitle("");
@@ -308,9 +312,7 @@ function Interaction({ platform }) {
                 alt="logo-text"
               /> */}
             </div>
-            {
-              console.log(superText ,' 313')
-            }
+            {console.log(superText, " 313")}
 
             {!isUserSpeaking && !superText && (
               //Default UI
